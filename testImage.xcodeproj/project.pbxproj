@@ -258,6 +258,7 @@
 		BC5483F517175FB0003AA468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testImage/testImage-Prefix.pch";
 				INFOPLIST_FILE = "testImage/testImage-Info.plist";
@@ -269,6 +270,7 @@
 		BC5483F617175FB0003AA468 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testImage/testImage-Prefix.pch";
 				INFOPLIST_FILE = "testImage/testImage-Info.plist";

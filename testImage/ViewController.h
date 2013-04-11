@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSURLConnectionDelegate>
+{
+	NSMutableData *_data;
+	NSURLConnection *_connection;
+	NSUInteger index;
+	NSMutableArray *URLs;
+}
 
 @end
